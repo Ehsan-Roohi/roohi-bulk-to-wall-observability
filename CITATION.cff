@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this software or its processed data, please cite this repository."
+title: "Quantity-Dependent Bulk-to-Wall Observability"
+type: software
+authors:
+  - family-names: Roohi
+    given-names: Ehsan
+  - family-names: Lekzian
+    given-names: Elyas
+version: 0.1.0
+date-released: 2026-08-27
+license: MIT
+repository-code: "https://github.com/Ehsan-Roohi/roohi-bulk-to-wall-observability"
+keywords:
+  - DSMC
+  - rarefied gas dynamics
+  - machine learning
+  - observability
+  - hypersonic flow
+  - surrogate modeling

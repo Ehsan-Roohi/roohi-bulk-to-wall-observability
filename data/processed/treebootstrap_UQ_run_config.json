@@ -1,0 +1,17 @@
+{
+  "audit_dir": "./protrusion_01_audit_v2",
+  "out": "./protrusion_19_R95_uq_smoke",
+  "nonlocal_script": "./16_protrusion_nonlocal_bulk_to_wall_footprint.py",
+  "field_base_script": "./10_protrusion_train_smooth_field_operator_v4_geomfix.py",
+  "surface_base_script": "./06_protrusion_train_unified_operator_v8_geomfix.py",
+  "targets": "Cq",
+  "radii": "0.2,0.5,1,3",
+  "max_gas_points": 15000,
+  "trees": 80,
+  "bootstraps": 50,
+  "min_leaf": 2,
+  "max_features": "sqrt",
+  "jobs": 4,
+  "seed": 2026,
+  "make_plots": true
+}

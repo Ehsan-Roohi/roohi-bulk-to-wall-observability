@@ -1,0 +1,7 @@
+Design choice,Observed effect,Decision
+Geometry from x_min/x_max,FWD/BWD become artificial right triangles,rejected
+Correct base endpoints,"base fixed at x=0.22–0.24, orientation-specific apex",used
+Single smooth field model for P,Phase-1 pressure error ≈ 8.82%,baseline
+Pressure-focused model,Phase-1 pressure error ≈ 6.37%,used
+Unified surface with field,wall profiles can be over-smoothed,not final
+Face-aware surface-only model,"separate protrusion-wall operator for Cp, Cq, |tau|",used
