@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.py[cod]
+*.pt
+*.pth
+*.npz
+raw_data/
+checkpoints/
+outputs/
+reproduced_figures/
+.pytest_cache/
+.idea/
+.vscode/
+.DS_Store

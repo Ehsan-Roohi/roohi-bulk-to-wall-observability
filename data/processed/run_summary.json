@@ -1,0 +1,17 @@
+{
+  "data_root": ".",
+  "out_dir": "./protrusion_01_audit_v2",
+  "n_raw_cases_processed": 69,
+  "n_unique_physical_keys_in_processed": 57,
+  "scipy_ok": true,
+  "matplotlib_ok": true,
+  "outputs": [
+    "manifest_raw.csv",
+    "manifest_unique_physical_conditions.csv",
+    "duplicate_audit.csv",
+    "geometry_diagnostics.csv",
+    "surface_diagnostics.csv",
+    "field_structure_diagnostics.csv",
+    "plots/*.png if --make-plots"
+  ]
+}

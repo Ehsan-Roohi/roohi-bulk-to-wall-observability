@@ -1,0 +1,5 @@
+sampling_block,n_records,particles_min,particles_median,particles_max,cpu_cores,runtime_h_min,runtime_h_median,runtime_h_max,dt_over_tau_coll_min,dt_over_tau_coll_max
+Mach-rarefaction-orientation,27,1465574,1479938,1491483,"14,26",8.05,8.7,18.15,0.16,0.19
+Height sweep (recorded subset),12,1488652,1973003,2004681,"14,26",8.63,11.07,21.43,0.17,0.19
+Wall-temperature sweep,12,1464154,1483497,1498557,26,8.04,8.735,9.1,0.17,0.19
+All supplied run records,51,1464154,1485985,2004681,"14,26",8.04,8.87,21.43,0.16,0.19

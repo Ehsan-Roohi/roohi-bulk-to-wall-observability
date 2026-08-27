@@ -1,0 +1,52 @@
+R95 robustness controls
+=======================
+
+Second-regressor error reductions:
+Model: extratrees
+  Cp: parameter-only 49.19% -> full 23.98%
+  Cq: parameter-only 87.03% -> full 22.66%
+  tau_abs: parameter-only 51.55% -> full 38.37%
+
+Model: ridge
+  Cp: parameter-only 127.46% -> full 29.31%
+  Cq: parameter-only 178.15% -> full 41.92%
+  tau_abs: parameter-only 104.47% -> full 64.35%
+
+Threshold/reference summary:
+     model  target  epsilon       reference_mode  n  n_reached  censored_fraction  R_lower_mean  R_lower_median  ref_error_mean
+extratrees      Cp    0.025     full_domain_ring 27         22           0.185185      1.359259            1.50        0.239839
+extratrees      Cp    0.025 max_cumulative_patch 27         27           0.000000      1.287037            0.05        0.250492
+extratrees      Cp    0.050     full_domain_ring 27         22           0.185185      1.287037            0.10        0.239839
+extratrees      Cp    0.050 max_cumulative_patch 27         27           0.000000      1.225926            0.05        0.250492
+extratrees      Cp    0.100     full_domain_ring 27         23           0.148148      1.135185            0.05        0.239839
+extratrees      Cp    0.100 max_cumulative_patch 27         27           0.000000      1.127778            0.05        0.250492
+extratrees      Cq    0.025     full_domain_ring 27         25           0.074074      1.461111            1.50        0.226601
+extratrees      Cq    0.025 max_cumulative_patch 27         27           0.000000      1.281481            0.50        0.245630
+extratrees      Cq    0.050     full_domain_ring 27         25           0.074074      1.388889            1.50        0.226601
+extratrees      Cq    0.050 max_cumulative_patch 27         27           0.000000      1.281481            0.50        0.245630
+extratrees      Cq    0.100     full_domain_ring 27         25           0.074074      1.292593            1.50        0.226601
+extratrees      Cq    0.100 max_cumulative_patch 27         27           0.000000      1.179630            0.50        0.245630
+extratrees tau_abs    0.025     full_domain_ring 27         27           0.000000      0.227778            0.05        0.383721
+extratrees tau_abs    0.025 max_cumulative_patch 27         27           0.000000      0.377778            0.05        0.383977
+extratrees tau_abs    0.050     full_domain_ring 27         27           0.000000      0.205556            0.05        0.383721
+extratrees tau_abs    0.050 max_cumulative_patch 27         27           0.000000      0.375926            0.05        0.383977
+extratrees tau_abs    0.100     full_domain_ring 27         27           0.000000      0.181481            0.05        0.383721
+extratrees tau_abs    0.100 max_cumulative_patch 27         27           0.000000      0.333333            0.05        0.383977
+     ridge      Cp    0.025     full_domain_ring 27         11           0.592593      2.520370            3.00        0.293071
+     ridge      Cp    0.025 max_cumulative_patch 27         27           0.000000      2.335185            3.00        0.275137
+     ridge      Cp    0.050     full_domain_ring 27         11           0.592593      2.461111            3.00        0.293071
+     ridge      Cp    0.050 max_cumulative_patch 27         27           0.000000      2.298148            3.00        0.275137
+     ridge      Cp    0.100     full_domain_ring 27         14           0.481481      2.450000            3.00        0.293071
+     ridge      Cp    0.100 max_cumulative_patch 27         27           0.000000      2.298148            3.00        0.275137
+     ridge      Cq    0.025     full_domain_ring 27         10           0.629630      2.096296            3.00        0.419178
+     ridge      Cq    0.025 max_cumulative_patch 27         27           0.000000      0.277778            0.05        0.763225
+     ridge      Cq    0.050     full_domain_ring 27         10           0.629630      2.087037            3.00        0.419178
+     ridge      Cq    0.050 max_cumulative_patch 27         27           0.000000      0.225926            0.05        0.763225
+     ridge      Cq    0.100     full_domain_ring 27         11           0.592593      1.974074            3.00        0.419178
+     ridge      Cq    0.100 max_cumulative_patch 27         27           0.000000      0.205556            0.05        0.763225
+     ridge tau_abs    0.025     full_domain_ring 27         17           0.370370      1.335185            0.75        0.643493
+     ridge tau_abs    0.025 max_cumulative_patch 27         27           0.000000      0.216667            0.05        0.819930
+     ridge tau_abs    0.050     full_domain_ring 27         18           0.333333      1.168519            0.50        0.643493
+     ridge tau_abs    0.050 max_cumulative_patch 27         27           0.000000      0.157407            0.05        0.819930
+     ridge tau_abs    0.100     full_domain_ring 27         19           0.296296      1.068519            0.50        0.643493
+     ridge tau_abs    0.100 max_cumulative_patch 27         27           0.000000      0.124074            0.05        0.819930

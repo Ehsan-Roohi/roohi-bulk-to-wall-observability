@@ -1,0 +1,16 @@
+Tree-bootstrap UQ for model-conditional R95
+==========================================
+
+This analysis quantifies diagnostic-regressor ensemble uncertainty only.
+It does not replace independent DSMC-realization uncertainty.
+
+target geom   Kn  R95_lower_bound_mean_median_hs  R95_lower_bound_mean_CI2p5_hs  R95_lower_bound_mean_CI97p5_hs  mean_censored_fraction
+    Cq  BWD 0.10                        2.166667                       1.333333                        3.000000                0.446667
+    Cq  BWD 0.33                        1.500000                       1.255833                        2.850000                0.400000
+    Cq  BWD 0.80                        2.066667                       0.566667                        3.000000                0.186667
+    Cq  FWD 0.10                        1.133333                       0.300000                        2.066667                0.260000
+    Cq  FWD 0.33                        1.233333                       0.345000                        2.166667                0.280000
+    Cq  FWD 0.80                        1.500000                       0.755833                        2.166667                0.033333
+    Cq  ISO 0.10                        0.433333                       0.200000                        2.066667                0.086667
+    Cq  ISO 0.33                        0.833333                       0.566667                        1.500000                0.060000
+    Cq  ISO 0.80                        1.666667                       1.500000                        2.333333                0.086667

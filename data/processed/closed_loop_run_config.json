@@ -1,0 +1,21 @@
+{
+  "audit_dir": "./protrusion_01_audit_v2",
+  "out": "./protrusion_18_closed_loop_v01",
+  "nonlocal_script": "./16_protrusion_nonlocal_bulk_to_wall_footprint.py",
+  "field_base_script": "./10_protrusion_train_smooth_field_operator_v4_geomfix.py",
+  "field_checkpoint": "./protrusion_10_smooth_field_v04_geomfix/best_smooth_field.pt",
+  "pressure_base_script": "./11_protrusion_train_pressure_only_operator_v2_geomfix.py",
+  "pressure_checkpoint": "./protrusion_11_pressure_only_v02_geomfix/best_smooth_field.pt",
+  "surface_base_script": "./06_protrusion_train_unified_operator_v8_geomfix.py",
+  "radii": "0.05,0.1,0.2,0.35,0.5,0.75,1,1.5,2,3",
+  "max_gas_points": 60000,
+  "predict_batch_size": 65536,
+  "trees": 250,
+  "min_leaf": 2,
+  "max_features": "sqrt",
+  "diagnostic_seeds": 20,
+  "jobs": 16,
+  "device": "auto",
+  "seed": 2026,
+  "make_plots": true
+}

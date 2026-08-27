@@ -1,0 +1,52 @@
+run_record,case_id,phase,sampling_block,Kn,Ma,orientation,hphs,TwTinf,n_particles,cpu_cores,reported_runtime_h,dt_over_tau_coll
+1,PHASE1__Ma4_Kn0.1_BWD_hphs1.5_Tw1,PHASE1,Mach-rarefaction-orientation,0.1,4,BWD,1.5,1.0,1473054,26,8.47,0.17
+2,PHASE1__Ma4_Kn0.1_FWD_hphs1.5_Tw1,PHASE1,Mach-rarefaction-orientation,0.1,4,FWD,1.5,1.0,1474173,26,9.37,0.17
+3,PHASE1__Ma4_Kn0.1_ISO_hphs1.5_Tw1,PHASE1,Mach-rarefaction-orientation,0.1,4,ISO,1.5,1.0,1479965,26,8.23,0.17
+4,PHASE1__Ma6_Kn0.1_BWD_hphs1.5_Tw1,PHASE1,Mach-rarefaction-orientation,0.1,6,BWD,1.5,1.0,1469868,26,9.14,0.17
+5,PHASE1__Ma6_Kn0.1_FWD_hphs1.5_Tw1,PHASE1,Mach-rarefaction-orientation,0.1,6,FWD,1.5,1.0,1467364,26,8.7,0.17
+6,PHASE1__Ma6_Kn0.1_ISO_hphs1.5_Tw1,PHASE1,Mach-rarefaction-orientation,0.1,6,ISO,1.5,1.0,1477141,26,8.29,0.17
+7,PHASE1__Ma8_Kn0.1_BWD_hphs1.5_Tw1,PHASE1,Mach-rarefaction-orientation,0.1,8,BWD,1.5,1.0,1467073,26,8.05,0.17
+8,PHASE1__Ma8_Kn0.1_FWD_hphs1.5_Tw1,PHASE1,Mach-rarefaction-orientation,0.1,8,FWD,1.5,1.0,1465574,26,8.34,0.17
+9,PHASE1__Ma8_Kn0.1_ISO_hphs1.5_Tw1,PHASE1,Mach-rarefaction-orientation,0.1,8,ISO,1.5,1.0,1465847,26,8.18,0.17
+10,PHASE1__Ma4_Kn0.33_BWD_hphs1.5_Tw1,PHASE1,Mach-rarefaction-orientation,0.33,4,BWD,1.5,1.0,1475927,26,8.7,0.19
+11,PHASE1__Ma4_Kn0.33_FWD_hphs1.5_Tw1,PHASE1,Mach-rarefaction-orientation,0.33,4,FWD,1.5,1.0,1486253,26,8.93,0.19
+12,PHASE1__Ma4_Kn0.33_ISO_hphs1.5_Tw1,PHASE1,Mach-rarefaction-orientation,0.33,4,ISO,1.5,1.0,1481168,26,8.32,0.19
+13,PHASE1__Ma6_Kn0.33_BWD_hphs1.5_Tw1,PHASE1,Mach-rarefaction-orientation,0.33,6,BWD,1.5,1.0,1479938,26,8.85,0.19
+14,PHASE1__Ma6_Kn0.33_FWD_hphs1.5_Tw1,PHASE1,Mach-rarefaction-orientation,0.33,6,FWD,1.5,1.0,1489741,26,8.93,0.19
+15,PHASE1__Ma6_Kn0.33_ISO_hphs1.5_Tw1,PHASE1,Mach-rarefaction-orientation,0.33,6,ISO,1.5,1.0,1485413,26,8.87,0.19
+16,PHASE1__Ma8_Kn0.33_BWD_hphs1.5_Tw1,PHASE1,Mach-rarefaction-orientation,0.33,8,BWD,1.5,1.0,1490804,26,9.07,0.19
+17,PHASE1__Ma8_Kn0.33_FWD_hphs1.5_Tw1,PHASE1,Mach-rarefaction-orientation,0.33,8,FWD,1.5,1.0,1491123,26,9.1,0.19
+18,PHASE1__Ma8_Kn0.33_ISO_hphs1.5_Tw1,PHASE1,Mach-rarefaction-orientation,0.33,8,ISO,1.5,1.0,1472243,26,8.73,0.19
+19,PHASE1__Ma4_Kn0.8_BWD_hphs1.5_Tw1,PHASE1,Mach-rarefaction-orientation,0.8,4,BWD,1.5,1.0,1487087,26,8.55,0.16
+20,PHASE1__Ma4_Kn0.8_FWD_hphs1.5_Tw1,PHASE1,Mach-rarefaction-orientation,0.8,4,FWD,1.5,1.0,1491483,26,8.76,0.16
+21,PHASE1__Ma4_Kn0.8_ISO_hphs1.5_Tw1,PHASE1,Mach-rarefaction-orientation,0.8,4,ISO,1.5,1.0,1489439,26,8.6,0.16
+22,PHASE1__Ma6_Kn0.8_BWD_hphs1.5_Tw1,PHASE1,Mach-rarefaction-orientation,0.8,6,BWD,1.5,1.0,1479034,26,8.68,0.16
+23,PHASE1__Ma6_Kn0.8_FWD_hphs1.5_Tw1,PHASE1,Mach-rarefaction-orientation,0.8,6,FWD,1.5,1.0,1489714,26,8.57,0.16
+24,PHASE1__Ma6_Kn0.8_ISO_hphs1.5_Tw1,PHASE1,Mach-rarefaction-orientation,0.8,6,ISO,1.5,1.0,1465958,26,8.34,0.16
+25,PHASE1__Ma8_Kn0.8_BWD_hphs1.5_Tw1,PHASE1,Mach-rarefaction-orientation,0.8,8,BWD,1.5,1.0,1491000,26,8.92,0.16
+26,PHASE1__Ma8_Kn0.8_FWD_hphs1.5_Tw1,PHASE1,Mach-rarefaction-orientation,0.8,8,FWD,1.5,1.0,1477503,14,17.94,0.16
+27,PHASE1__Ma8_Kn0.8_ISO_hphs1.5_Tw1,PHASE1,Mach-rarefaction-orientation,0.8,8,ISO,1.5,1.0,1481047,14,18.15,0.16
+28,PHASE2__Ma6_Kn0.1_BWD_hphs1_Tw1,PHASE2,Height sweep (recorded subset),0.1,6,BWD,1.0,1.0,1996299,26,11.11,0.17
+29,PHASE2__Ma6_Kn0.1_FWD_hphs1_Tw1,PHASE2,Height sweep (recorded subset),0.1,6,FWD,1.0,1.0,2004681,26,11.34,0.17
+30,PHASE2__Ma6_Kn0.1_ISO_hphs1_Tw1,PHASE2,Height sweep (recorded subset),0.1,6,ISO,1.0,1.0,1973075,26,11.07,0.17
+31,PHASE2__Ma6_Kn0.1_BWD_hphs1.25_Tw1,PHASE2,Height sweep (recorded subset),0.1,6,BWD,1.25,1.0,1491655,26,8.63,0.17
+32,PHASE2__Ma6_Kn0.1_FWD_hphs1.25_Tw1,PHASE2,Height sweep (recorded subset),0.1,6,FWD,1.25,1.0,1492281,26,8.94,0.17
+33,PHASE2__Ma6_Kn0.1_ISO_hphs1.25_Tw1,PHASE2,Height sweep (recorded subset),0.1,6,ISO,1.25,1.0,1495997,26,9.02,0.17
+34,PHASE2__Ma6_Kn0.33_BWD_hphs1_Tw1,PHASE2,Height sweep (recorded subset),0.33,6,BWD,1.0,1.0,1996738,26,11.21,0.19
+35,PHASE2__Ma6_Kn0.33_FWD_hphs1_Tw1,PHASE2,Height sweep (recorded subset),0.33,6,FWD,1.0,1.0,1999760,26,11.24,0.19
+36,PHASE2__Ma6_Kn0.33_ISO_hphs1_Tw1,PHASE2,Height sweep (recorded subset),0.33,6,ISO,1.0,1.0,1972931,14,21.43,0.19
+37,PHASE2__Ma6_Kn0.33_BWD_hphs1.25_Tw1,PHASE2,Height sweep (recorded subset),0.33,6,BWD,1.25,1.0,1491337,26,8.97,0.19
+38,PHASE2__Ma6_Kn0.33_FWD_hphs1.25_Tw1,PHASE2,Height sweep (recorded subset),0.33,6,FWD,1.25,1.0,1488652,26,8.91,0.19
+39,PHASE2__Ma6_Kn0.33_ISO_hphs1.25_Tw1,PHASE2,Height sweep (recorded subset),0.33,6,ISO,1.25,1.0,1993566,26,11.07,0.19
+40,PHASE3__Ma6_Kn0.1_BWD_hphs1.5_Tw2,PHASE3,Wall-temperature sweep,0.1,6,BWD,1.5,2.0,1464154,26,8.24,0.17
+41,PHASE3__Ma6_Kn0.1_BWD_hphs1.5_Tw4,PHASE3,Wall-temperature sweep,0.1,6,BWD,1.5,4.0,1464517,26,8.22,0.17
+42,PHASE3__Ma6_Kn0.1_FWD_hphs1.5_Tw2,PHASE3,Wall-temperature sweep,0.1,6,FWD,1.5,2.0,1473674,26,8.11,0.17
+43,PHASE3__Ma6_Kn0.1_FWD_hphs1.5_Tw4,PHASE3,Wall-temperature sweep,0.1,6,FWD,1.5,4.0,1471471,26,8.04,0.17
+44,PHASE3__Ma6_Kn0.1_ISO_hphs1.5_Tw2,PHASE3,Wall-temperature sweep,0.1,6,ISO,1.5,2.0,1483111,26,8.69,0.17
+45,PHASE3__Ma6_Kn0.1_ISO_hphs1.5_Tw4,PHASE3,Wall-temperature sweep,0.1,6,ISO,1.5,4.0,1498557,26,9.1,0.17
+46,PHASE3__Ma6_Kn0.33_BWD_hphs1.5_Tw2,PHASE3,Wall-temperature sweep,0.33,6,BWD,1.5,2.0,1491707,26,8.98,0.19
+47,PHASE3__Ma6_Kn0.33_BWD_hphs1.5_Tw4,PHASE3,Wall-temperature sweep,0.33,6,BWD,1.5,4.0,1485985,26,8.87,0.19
+48,PHASE3__Ma6_Kn0.33_FWD_hphs1.5_Tw2,PHASE3,Wall-temperature sweep,0.33,6,FWD,1.5,2.0,1473505,26,8.09,0.19
+49,PHASE3__Ma6_Kn0.33_FWD_hphs1.5_Tw4,PHASE3,Wall-temperature sweep,0.33,6,FWD,1.5,4.0,1483884,26,8.78,0.19
+50,PHASE3__Ma6_Kn0.33_ISO_hphs1.5_Tw2,PHASE3,Wall-temperature sweep,0.33,6,ISO,1.5,2.0,1492333,26,9.08,0.19
+51,PHASE3__Ma6_Kn0.33_ISO_hphs1.5_Tw4,PHASE3,Wall-temperature sweep,0.33,6,ISO,1.5,4.0,1489710,26,8.94,0.19

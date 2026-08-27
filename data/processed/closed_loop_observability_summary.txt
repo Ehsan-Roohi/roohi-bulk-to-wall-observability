@@ -1,0 +1,24 @@
+Closed-loop observability preservation test
+=========================================
+
+The diagnostic was trained on raw DSMC descriptors from the remaining Phase-1 cases.
+Each independent operator holdout was tested with raw DSMC descriptors and with reconstructed surrogate descriptors using the same diagnostic model.
+
+Independent holdouts:
+  - PHASE1__Ma6_Kn0.33_BWD_hphs1.5_Tw1
+  - PHASE1__Ma6_Kn0.33_FWD_hphs1.5_Tw1
+  - PHASE1__Ma6_Kn0.33_ISO_hphs1.5_Tw1
+
+Preservation summary:
+                           case_id  target  Ma   Kn geom  n_seeds  censoring_agreement_fraction  surrogate_minus_DSMC_R95_lower_bound_median_hs  R95_difference_CI2p5_hs  R95_difference_CI97p5_hs  full_error_inflation_median_percentage_points  full_error_inflation_CI2p5  full_error_inflation_CI97p5
+PHASE1__Ma6_Kn0.33_BWD_hphs1.5_Tw1      Cp 6.0 0.33  BWD       20                          0.55                                           0.000                 -2.18750                   2.42000                                      -4.114988                   -7.015822                    -2.260641
+PHASE1__Ma6_Kn0.33_BWD_hphs1.5_Tw1      Cq 6.0 0.33  BWD       20                          1.00                                           0.500                 -0.26250                   0.88125                                       2.624223                   -0.489087                     4.227541
+PHASE1__Ma6_Kn0.33_BWD_hphs1.5_Tw1 tau_abs 6.0 0.33  BWD       20                          1.00                                           0.150                  0.05000                   0.30750                                       4.488799                    2.436148                     6.165018
+PHASE1__Ma6_Kn0.33_FWD_hphs1.5_Tw1      Cp 6.0 0.33  FWD       20                          0.80                                           0.000                 -2.80000                   0.00000                                       1.455521                   -0.632956                     3.641421
+PHASE1__Ma6_Kn0.33_FWD_hphs1.5_Tw1      Cq 6.0 0.33  FWD       20                          0.65                                           0.625                 -1.65625                   2.65750                                       8.108148                    5.355007                    11.938547
+PHASE1__Ma6_Kn0.33_FWD_hphs1.5_Tw1 tau_abs 6.0 0.33  FWD       20                          0.95                                           0.300                  0.15000                   2.00000                                      12.551259                    7.150973                    17.098496
+PHASE1__Ma6_Kn0.33_ISO_hphs1.5_Tw1      Cp 6.0 0.33  ISO       20                          0.80                                           1.000                 -2.32500                   1.50000                                       0.465021                   -0.741109                     2.860455
+PHASE1__Ma6_Kn0.33_ISO_hphs1.5_Tw1      Cq 6.0 0.33  ISO       20                          0.60                                           0.000                 -1.76250                   0.50000                                       2.327414                    1.066771                     5.509348
+PHASE1__Ma6_Kn0.33_ISO_hphs1.5_Tw1 tau_abs 6.0 0.33  ISO       20                          1.00                                           0.150                  0.05000                   0.15000                                       2.123110                   -0.108135                     3.901378
+
+Interpretation: this tests preservation of the model-conditional predictive footprint; it does not establish causality or DSMC realization uncertainty.
